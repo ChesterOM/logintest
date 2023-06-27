@@ -1,0 +1,42 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    background-color: rgba(186, 196, 205, 0.767);
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logincontainer{
+    display: flex;
+    width: 900px;
+    height: 700px;
+    border-radius: 50px;
+    box-shadow: 3px 10px 59px -5px rgba(0,0,0,0.65);
+}
+
+.leftimg{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px; 
+}
+
+.leftcontainer{
+    display: flex;
+    width: 350px;
+    height: 700px; 
+    background-color: burlywood;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.rightcontainer{
+    display: flex;
+    width: 550px;
+    height: 700px; 
+    background-color: rgb(199, 191, 180);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
