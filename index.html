@@ -9,10 +9,41 @@
 <body>
   <div class="logincontainer">
     <div class="leftcontainer">
-      <img src="imgs/leftbanner.avif" alt="desert picture" class="leftimg">
+
+      <div class="bgimg"> <img src="imgs/leftbanner.avif" alt="desert picture" class="leftimg"></div>
+      <div class="overlay"><H1>CREATE</H1><h2>ACCOUNT</h2></div>
     </div>
     <div class="rightcontainer">
-        
+        <form action="">
+            
+          <div class="formcontainer">
+            <div id="fname">               
+                <input type="text" name="firstname" id="first_name">
+                <label for="first_name">First Name</label>
+              </div>
+              <div id="lname">               
+                <input type="text" name="lastname" id="last_name">
+                <label for="last_name">Last Name</label>
+              </div>
+              <div id="uemial">               
+                <input type="email" name="mail" id="usermail">
+                <label for="usermail">Email</label>
+              </div>
+              <div id="unum">                
+                <input type="tel" name="number" id="usernum">
+                <label for="usernum">Number</label>
+              </div>
+              <div id="pass">
+                <input type="password" name="pwd" id="userpwd">
+                <label for="userpwd">Password</label>
+              </div>
+              <div id="confirmpass">                
+                <input type="password" name="pwd" id="confirmpwd">
+                <label for="confirmpwd">Confirm Password</label>
+              </div>
+            </div>
+            <button type="submit">Create Account</button>
+        </form>
     </div>
   </div>  
 </body>
